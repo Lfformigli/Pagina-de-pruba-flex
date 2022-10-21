@@ -1,0 +1,64 @@
+html {
+    font-family: 'Noto Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+.Titulo {
+    color: black;
+    width: 20rem;
+    font-family: 'Ubuntu', sans-serif;  
+    text-align: center;
+}
+
+header {
+    background-color: white;
+    padding: 0.5;
+    margin: 0rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+body {
+    margin: 0;
+    background-color: lightgrey;
+}
+
+.Contenedor {
+    background-color: grey;
+    width: 350px;
+    margin: 2rem;
+    border-radius: 1rem;
+    text-align: center;   
+}
+
+.Cuerpo {
+    display: flex;
+    justify-content: space-around;
+    height: max-content;
+}
+
+.Contenedor img{
+    object-fit: cover;
+}
+
+nav {
+    width: 30rem;
+    display: flex;
+    font-size: 1rem;
+    font-family: 'Ubuntu', sans-serif; 
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 3rem;
+}
+
+nav a {
+    text-decoration: none;
+    font-family: 'Ubuntu', sans-serif;
+    color: black;    
+}
+
+footer {
+    background-color: #222;
+    padding: 3rem;
+    color: white;
+}
