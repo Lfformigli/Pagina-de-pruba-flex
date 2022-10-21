@@ -20,21 +20,30 @@ header {
 
 body {
     margin: 0;
-    background-color: lightgrey;
+    background-color: lightgrey;    
 }
 
 .Contenedor {
     background-color: grey;
     width: 350px;
     margin: 2rem;
-    border-radius: 1rem;
+    border-radius: 0.3rem;
     text-align: center;   
+    border: solid black;
+    border-width: 2px;
+}
+
+.Contenedor p {
+    font-size: 1.5rem;
 }
 
 .Cuerpo {
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     justify-content: space-around;
-    height: max-content;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .Contenedor img{
@@ -44,7 +53,7 @@ body {
 nav {
     width: 30rem;
     display: flex;
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-family: 'Ubuntu', sans-serif; 
     justify-content: space-around;
     align-items: center;
@@ -54,11 +63,42 @@ nav {
 nav a {
     text-decoration: none;
     font-family: 'Ubuntu', sans-serif;
-    color: black;    
+    color: black;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    font-size: 110%;
 }
 
 footer {
     background-color: #222;
-    padding: 3rem;
+    display: flex;
+    padding: 2rem;
     color: white;
+    justify-content: space-between;
+    align-self: flex-end;
+}
+
+.Contacto h1 {
+    margin: 0;
+}
+
+.Contacto {
+    display: flex;
+    justify-content: space-around;
+    width: 25rem;
+    align-items:center;
+}
+
+.botonescontacto {
+    margin: 0;
+    color: white;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+
+.botonescontacto:hover {
+    color: rgb(127, 178, 255);
+    cursor: pointer;
 }
