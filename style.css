@@ -20,34 +20,35 @@ header {
 
 body {
     margin: 0;
-    background-color: lightgrey;    
+    background-color: lightgrey;
 }
 
 .Contenedor {
-    background-color: grey;
-    width: 350px;
+    background-color: white;
+    width: 400px;
     margin: 2rem;
     border-radius: 0.3rem;
-    text-align: center;   
-    border: solid black;
-    border-width: 2px;
+    text-align: center;
+    transition: 0.3s;
+}
+
+.Contenedor:hover {
+    box-shadow: 0rem 0rem 0.3rem rgba(0, 0, 0, 0.5);
 }
 
 .Contenedor p {
     font-size: 1.5rem;
 }
 
-.Cuerpo {
+.Cuerpo {    
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
-    margin-left: 10%;
-    margin-right: 10%;
+    justify-content: center;
 }
 
 .Contenedor img{
     object-fit: cover;
+    padding: 25px;
 }
 
 nav {
